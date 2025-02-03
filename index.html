@@ -1,95 +1,286 @@
-<!-- LINK TO DESIGN -->
-<!-- https://www.figma.com/file/8kGztzSNcw13n1uXEugrjV/Travel?node-id=108%3A84&t=R3pZyRiYkfAaZbPf-0 -->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Example</title>
-  </head>
-  <body>
-    <img class="background-img" src="./icons/Decore.svg" alt="Background" />
+    <title>Healthy Salad</title>
+</head>
+<body>
+
     <header class="header">
-      <img class="header-logo" src="./icons/Jadoo.svg" alt="Logo" />
-      <nav class="header-nav">
-        <a class="header-link" href="#">Desitnations</a>
-        <a class="header-link" href="#">Hotels</a>
-        <a class="header-link" href="#">Flights</a>
-        <a class="header-link" href="#">Bookings</a>
-        <a class="header-link" href="#">Login</a>
-        <button class="sign-up-btn">Sign up</button>
-        <select class="language-select">
-          <option class="language-option">EN</option>
-          <option class="language-option">PL</option>
-          <option class="language-option">UK</option>
-        </select>
-      </nav>
-    </header>
-    <main class="main">
-      <section class="banner">
-        <div>
-          <h3 class="banner-subheader">Best Destinations around the world</h3>
-          <h1 class="banner-header">
-            Travel, enjoy and live a new and full life
-          </h1>
-          <p class="banner-text">
-            Built Wicket longer admire do barton vanity itself do in it.
-            Preferred to sportsmen it engrossed listening. Park gate sell they
-            west hard for the.
-          </p>
-          <div class="banner-actions">
-            <button class="banner-more-btn">Find out more</button>
-            <div class="banner-play-demo">
-              <button class="banner-play-btn">
-                <img src="./icons/Play.svg" alt="Play" />
-              </button>
-              <span class="banner-play-label">Play Demo</span>
+        <h1 class="header-logo">
+            <strong class="highlight">JEZ</strong> SALAD<br>
+        </h1>
+        <nav class="top-header-nav">
+            <a class="top-header-link" href="#">Home</a>
+            <a class="top-header-link" href="#">Menu</a>
+            <a class="top-header-link" href="#">Contact</a>
+            <a class="top-header-link" href="#">About Us</a>
+            <button class="sign-up-btn">Sign</button>
+        </nav>
+    </header> 
+
+    <main>
+        <section class="banner">
+            
+            <p class="banner-subheader">#1 <strong>Best Healthy Salad</strong></p>
+        
+            <h1 class="banner-header">
+                <strong class="highlight">Skip</strong> The Diet,<br>
+                Just Eat Healthy<br>
+                With Jez Salad
+            </h1>
+        
+            <p class="banner-text">
+                Imagine you don't need a diet because we provide<br>
+                healthy and delicious food for you!
+            </p>
+        
+            <button class="order-btn">Order Food</button>
+
+            <section class="banner-stats">
+                <div class="stat">
+                    <p class="stat-number">5.000+</p>
+                    <p class="stat-label">Customer</p>
+                </div>
+                <div class="stat">
+                    <p class="stat-number">8.000+</p>
+                    <p class="stat-label">Delivery</p>
+                </div>
+                <div class="stat">
+                    <p class="stat-number">1.000+</p>
+                    <p class="stat-label">Ratings</p>
+                </div>
+            </section>
+        </section>
+
+        <aside class="banner-right">
+            <figure class="heart-image">
+                <img class = "heart" src="./iconweb/heart.svg" alt="heart" />
+            </figure>
+            <figure class="main-image">
+                <img class="woman" src="./iconweb/main.svg" alt="mainimage" />
+            </figure>
+            
+            <section class="customer-review">
+                <p class="emoji">😊</p>
+                <article class="review-details">
+                    <header>
+                        <h2>Our Happy Customer</h2>
+                    </header>
+                    <p class="review-rating">⭐ 4.9 (<span class="review-count">1,989 Reviews</span>)</p>
+                </article>
+            </section>
+            
+            <section class="daily-calories">
+                <header>
+                    <h3>Daily Calories</h3>
+                </header>
+                <p class="calories-value">123 Cal</p>
+                <figure class="calories-chart">
+                    <progress value="10" max="100"></progress>
+                    <progress value="20" max="100"></progress>
+                    <progress value="30" max="100"></progress>
+                    <progress value="40" max="100"></progress>
+                    <progress value="50" max="100"></progress>
+                    <progress value="60" max="100"></progress>
+                    <progress value="70" max="100"></progress>
+                    <progress value="80" max="100"></progress>
+                    <progress value="90" max="100"></progress>
+                </figure>
+            </section>
+        </aside>
+        
+            <div class="customer-rating">
+                <span class="emoji">😊</span>
+                <div class="rating-info">
+                    <p class="rating-title">Our Happy Customer</p>
+                    <p class="rating-score">⭐ 4.9 <span class="rating-count">(1.989 Reviews)</span></p>
+                </div>
             </div>
-          </div>
-          <img class="banner-img" src="./icons/Traveller.svg" alt="Traveller" />
-        </div>
-      </section>
-      <section class="services">
-        <img
-          class="services-background-img"
-          src="./icons/Services.svg"
-          alt="Background"
-        />
-        <h3 class="section-subheader">CATEGORY</h3>
-        <h2 class="section-header">We Offer Best Services</h2>
-        <div class="services-container">
-          <article class="service">
-            <img class="service-img" src="./icons/Service1.svg" alt="Service" />
-            <h4 class="service-name">Calculated Weather</h4>
-            <p class="service-description">
-              Built Wicket longer admire do barton vanity itself do in it.
+        
+            <div class="daily-calories">
+                <p class="calories-title">Daily Calories</p>
+                <p class="calories-value">123 Cal</p>
+                <div class="calories-chart">
+                </div>
+            </div>
+        </aside>     
+
+        <section class="sub-banner">   
+            <h1 class="sub-banner-header">
+                WHY CHOOSE US <br>
+                FOR <strong class="highlight">YOUR HEALTHY FOOD</strong>
+            </h1>
+            <p class="sub-banner-aside">
+                We continue to consistently choose and maintain the quality of the fruit served, so that it remains fresh and nutritious when you eat it.
             </p>
-          </article>
-          <article class="service">
-            <img class="service-img" src="./icons/Service2.svg" alt="Service" />
-            <h4 class="service-name">Best Flights</h4>
-            <p class="service-description">
-              Engrossed listening. Park gate sell they west hard for the.
+        </section> 
+
+        <section class="features">
+
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="./iconweb/fabric.png" alt="Fabric Icon">
+                </div>
+                <h3 class="feature-title">Own fruit orchard</h3>
+                <p class="feature-description">
+                    Langsung dari Kebun Sendiri yang tersebar di setiap provinsi yang memiliki cabang toko Jez Salad.
+                </p>
+                <a href="#" class="feature-link">Learn more →</a>
+            </div>
+    
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="./iconweb/one.png" alt="Healthy Salad Icon">
+                </div>
+                <h3 class="feature-title">#1 Healthy Fruit Salad</h3>
+                <p class="feature-description">
+                    The pioneer of healthy fruit salads that are delicious & suitable for all people with the best quality assurance.
+                </p>
+                <a href="#" class="feature-link feature-button">Learn more →</a>
+            </div>
+    
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="./iconweb/trophy.png" alt="Trophy Icon">
+                </div>
+                <h3 class="feature-title">100 Top Brand</h3>
+                <p class="feature-description">
+                    We are one of the best brands in the Food and Beverage sector in Indonesia.
+                </p>
+                <a href="#" class="feature-link">Learn more →</a>
+            </div>
+    
+        </section>
+
+        <section class="respones">
+            <h1 class="respones-heading">
+                <b>What Are People Saying <strong class="highlight">About Us</strong></b>
+            </h1>
+            <small class="respones-subheading">
+                We are very happy if you are satisfied with our service and products, let's read pure reviews from customers who bought our products.
+            </small>
+            <p class="respones-num">
+                <strong class="highlight-number">02</strong>/05
             </p>
-          </article>
-          <article class="service">
-            <img class="service-img" src="./icons/Service3.svg" alt="Service" />
-            <h4 class="service-name">Local Events</h4>
-            <p class="service-description">
-              Barton vanity itself do in it. Preferd to men it engrossed
-              listening.
-            </p>
-          </article>
-          <article class="service">
-            <img class="service-img" src="./icons/Service4.svg" alt="Service" />
-            <h4 class="service-name">Customization</h4>
-            <p class="service-description">
-              We deliver outsourced aviation services for military customers
-            </p>
-          </article>
-        </div>
-      </section>
-    </main>
-  </body>
+            <section class="button">
+                <button class="arrow-btn-back">
+                    <img src="./iconweb/arrowback.svg" alt="">
+                </button>
+                <button class="arrow-btn-forward">
+                    <img src="./iconweb/arrow-forward.svg" alt="">
+                </button>
+            </section>
+            <section class="customer-reviews">
+                <article class="review-card">
+                    <figure class="reviewer-image">
+                        <img src="./iconweb/reviewer1.svg" alt="Selena Gomz">
+                    </figure>
+                    <header>
+                        <h3>Selena Gomz</h3>
+                        <p class="review-age">22 Years</p>
+                    </header>
+                    <p class="review-text">The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to be routine. I recommend this salad to all of you guys! because they really take care of the quality.</p>
+                </article>
+                
+                <article class="review-card">
+                    <figure class="reviewer-image">
+                        <img src="./iconweb/reviewer2.svg" alt="David Ken">
+                    </figure>
+                    <header>
+                        <h3>David Ken</h3>
+                        <p class="review-age">24 Years</p>
+                    </header>
+                    <p class="review-text">The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to be routine. I recommend this salad to all of you guys! because they really take care of the quality.</p>
+                </article>
+                
+                <article class="review-card">
+                    <figure class="reviewer-image">
+                        <img src="./iconweb/reviewer3.svg" alt="Jennifer Sina">
+                    </figure>
+                    <header>
+                        <h3>Jennifer Sina</h3>
+                        <p class="review-age">21 Years</p>
+                    </header>
+                    <p class="review-text">The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to be routine. I recommend this salad to all of you guys! because they really take care of the quality.</p>
+                </article>
+            </section>
+        </section>
+
+        <section class="menu-section">
+            <header>
+                <h2>Enjoy The Best Menu And Get <strong class="highlight">Discounts</strong> Available</h2>
+            </header>
+            <div class="menu-items">
+                <article class="menu-card">
+                    <figure>
+                        <img src="./iconweb/Mini-salad.svg" alt="Mini Salad Yummy">
+                        <figcaption>Mini Salad Yummy</figcaption>
+                    </figure>
+                    <p class="menu-price">$2.99</p>
+                </article>
+                <article class="menu-card">
+                    <figure>
+                        <img src="./iconweb/Completed-salad.svg" alt="Completed Salad">
+                        <figcaption>Completed Salad</figcaption>
+                    </figure>
+                    <p class="menu-price">$3.99</p>
+                </article>
+                <article class="menu-card">
+                    <figure>
+                        <img src="./iconweb/Yammy-salad.svg" alt="Salad Yummy Red">
+                        <figcaption>Salad Yummy Red</figcaption>
+                    </figure>
+                    <p class="menu-price">$3.99</p>
+                </article>
+            </div>
+        </section>
+        
+        <section class="subscribe-section">
+            <header>
+                <h3>Subscribe To Get The Latest Promo from Jez Salad</h3>
+            </header>
+            <p class="subscribe-text">We recommend you to subscribe to our promo program, drop your email below to get daily updates about us.</p>
+            <form class="subscribe-form">
+                <input type="email" placeholder="Enter your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+    </main>   
+</body>
+
+<footer class="site-footer">
+    <div class="footer-info">
+        <p><strong>JEZ SALAD</strong></p>
+        <p>Jez Salad is the pioneer of healthy fruit salad with high nutrition.</p>
+        <p>&copy;Copyright Jez Salad</p>
+    </div>
+    <nav class="footer-nav">
+        <ul>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Promo</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About us</a></li>
+        </ul>
+    </nav>
+    <div class="contact-info">
+        <img src="./iconweb/location_on.svg" alt="location_on">
+        <p>8819 Ohio St. South Gate, CA 90280</p>
+        <img src="./iconweb/email.svg" alt="email">
+        <p>Email: ourstudio@hello.com</p>
+        <img src="./iconweb/call.svg" alt="call">
+        <p>Phone: +1 386-688-3295</p>
+    </div>
+    <div class="social-media">
+        <p>Follow our social media:</p>
+        <nav>
+            <a href="#"><img src="./iconweb/Twitter-icon.svg" alt="Twitter"></a>
+            <a href="#"><img src="./iconweb/linkedin-icon.svg" alt="LinkedIn"></a>
+            <a href="#"><img src="./iconweb/Instagram-icon.svg" alt="Instagram"></a>
+        </nav>
+    </div>
+</footer>
+        
+
 </html>
